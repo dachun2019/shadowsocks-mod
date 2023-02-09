@@ -7,7 +7,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/aipeach/doubi/m
 Debian / Ubuntu:
 apt update && apt install -y python3-pip libffi-dev libssl-dev git nano
 下载后端源码
-git clone -b manyuser https://github.com/Anankke/shadowsocks-mod.git /root/shadowsocks
+#git clone -b manyuser https://github.com/Anankke/shadowsocks-mod.git /root/shadowsocks
+git clone -b manyuser https://github.com/dachun2019/shadowsocks-mod.git /root/shadowsocks
 cd shadowsocks
 安装依赖
 pip3 install -r requirements.txt
